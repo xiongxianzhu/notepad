@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notes">
+        <item>所有分类</item>
+        <item>默认分类 </item>
+        <item>工作相关</item>
+        <item>学习</item>
+        <item>情感生活</item>
+    </string-array>
+</resources>

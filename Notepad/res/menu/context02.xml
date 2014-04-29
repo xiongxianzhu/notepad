@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 定义上下文菜单 的资源文件 -->
+    <!-- 定义两个菜单项 -->
+    <item
+        android:id="@+id/note_look"
+        android:title="@string/note_look"/>
+    <item
+        android:id="@+id/note_edit"
+        android:title="@string/note_edit"/>
+    <item
+        android:id="@+id/note_delete"
+        android:title="@string/note_delete"/>
+    <item
+        android:id="@+id/note_sendSMS"
+        android:title="@string/note_sendSMS"/>
+
+</menu>

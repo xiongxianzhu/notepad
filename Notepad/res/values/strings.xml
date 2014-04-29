@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">记事本</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="allNotes">所有分类</string>
+	<string name="defaultType">默认分类</string>
+	<string name="work">工作相关</string>
+	<string name="study">学习</string>
+	<string name="emotion">情感生活</string>
+	<string name="main">主界面</string>
+	<string name="add">新 增</string>
+	<string name="search">查 询</string>
+	<string name="addType">创建分类</string>
+	<string name="num20">20</string>
+	<string name="num5">5</string>
+	<string name="num2">2</string>
+	<string name="num8">8</string>
+	<string name="desc">This is a button.</string>
+	<string name="imagesDesc">This is a imageDesc.</string>
+	<string name="ListItem_update">编 辑</string>
+	<string name="ListItem_delete">删 除</string>
+	<string name="noteTypeName">名 称：</string>
+	<string name="hint_noteType">笔记分类名称</string>
+	<string name="hint_noteTitle">输入标题</string>
+	<string name="hint_noteContent">输入笔记内容</string>
+	<string name="btn_save">保 存</string>
+	<string name="btn_back">返 回</string>
+	<string name="btn_edit">编 辑</string>
+	<string name="btn_delete">删 除</string>
+	<string name="btn_search">查 询</string>
+	<string name="btn_send">发 送</string>
+	<string name="hint_search">搜 索</string>
+	<string name="note_look">查 看</string>
+	<string name="note_edit">编 辑</string>
+	<string name="note_delete">删 除</string>
+	<string name="note_sendSMS">短信方式发送</string>
+	<string name="telNumber">请输入手机号码：</string>
+	<string name="noteTitle">笔记标题：</string>
+	<string name="send_success">发送成功</string>
+	<string name="hint_telNum">请输入手机号码</string>
+</resources>
