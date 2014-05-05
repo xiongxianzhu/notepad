@@ -82,7 +82,7 @@ public class SearchNotesActivity extends PlayAnimActivity {
 		//打开数据库
 		db.open();
 
-		//为ListView类型的lv01注册上下文菜单
+		//为ListView类型的lv03注册上下文菜单
 		registerForContextMenu(lv03);
 
 		//初次进入该activity时， 显示所有笔记标题
