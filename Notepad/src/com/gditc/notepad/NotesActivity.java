@@ -86,7 +86,7 @@ public class NotesActivity extends PlayAnimActivity {
 		//打开数据库
 		db.open();
 
-		//为ListView类型的lv01注册上下文菜单
+		//为ListView类型的lv02注册上下文菜单
 		registerForContextMenu(lv02);
 
 		//启动获取该Note的Intent

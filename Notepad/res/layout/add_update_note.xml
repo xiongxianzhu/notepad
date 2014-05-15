@@ -32,7 +32,7 @@
             android:inputType="none"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minLines="15"
+            android:minLines="25"
             android:gravity="top"
             android:hint="@string/hint_noteContent"
             android:scrollbars="vertical" />

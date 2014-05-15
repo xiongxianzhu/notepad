@@ -15,6 +15,11 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="EBa724c80b7e6357c50f33fedbe425c1" />
+        
         <activity
             android:name="com.gditc.notepad.SplashScreenActivity"
             android:label="@string/app_name" >

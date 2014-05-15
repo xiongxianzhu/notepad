@@ -3,6 +3,7 @@ package com.gditc.notepad;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
@@ -138,6 +139,16 @@ public class AddNoteActivity extends PlayAnimActivity {
 						db.update(MyDbInfo.getTableNames()[tableIndex], updateFields,
 								updateValues, "type_name=?", new String[]{noteType});
 
+						Bundle bundle = new Bundle();
+						bundle.putString("category", noteType);
+						Intent intent = new Intent();
+						intent.setClass(getApplicationContext(),
+								NotesActivity.class);
+						intent.putExtra("data", bundle);
+						startActivity(intent);
+						finish();
+						playAnim();
+						
 						Toast.makeText(getApplicationContext(), "保存成功",
 								Toast.LENGTH_LONG).show();
 					}else{
