@@ -312,16 +312,10 @@ public class MainActivity extends PlayAnimActivity {
 						updateValues = new String[]{
 								type_name
 						};
-						reVal = 0;
-						reVal = db.update(MyDbInfo.getTableNames()[tableIndex], updateFieldNames,
+						db.update(MyDbInfo.getTableNames()[tableIndex], updateFieldNames,
 								updateValues, "note_type=?", new String[]{category});
-						if (reVal > 0) {
-							Toast.makeText(getApplicationContext(), "编辑成功", 
-									Toast.LENGTH_LONG).show();
-						}else{
-							Toast.makeText(getApplicationContext(), "编辑失败", 
-									Toast.LENGTH_LONG).show();
-						}
+						Toast.makeText(getApplicationContext(), "编辑成功", 
+								Toast.LENGTH_LONG).show();
 					}else{
 						Toast.makeText(getApplicationContext(), "编辑失败", 
 								Toast.LENGTH_LONG).show();
